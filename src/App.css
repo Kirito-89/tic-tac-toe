@@ -1,0 +1,21 @@
+.square-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.left{
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+}
+.right{
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+}
+
+.current-move-circle{
+   background-color: #3FA7F0 !important;
+}
+.current-move-cross{
+   background-color: #DD7F9F !important;
+}

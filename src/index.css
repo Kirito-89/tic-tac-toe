@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* <style> */
+
+
+/* </style> */
+body{
+  background-color: #1F1F2F; 
+  color: white;
+}
+
+.water-bg{
+  background-color: #4B495F;
+}
